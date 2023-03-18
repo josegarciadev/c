@@ -1,3 +1,17 @@
-{  
-  "extends": ["react-app", "plugin:prettier/recommended"]
+{
+	"extends": ["react-app", "plugin:react/recommended", "prettier"],
+	"plugins": ["jest"],
+	"rules": {
+		"no-unused-vars": [
+			"error",
+			{
+				"argsIgnorePattern": "^_"
+			}
+		],
+		"jest/no-disabled-tests": "error",
+		"jest/no-focused-tests": "error",
+		"jest/no-identical-title": "error",
+		"import/no-default-export": [2],
+		"eqeqeq": ["error", "always"]
+	}
 }
