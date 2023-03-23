@@ -4,7 +4,7 @@ import { LayoutPublic } from '../components/layout/LayoutPublic';
 
 export const Test = () => {
 	return (
-		<div>
+		<div className='container mt-4'>
 			<LayoutPublic>
 				<Home />
 			</LayoutPublic>
