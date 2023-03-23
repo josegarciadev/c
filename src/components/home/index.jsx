@@ -1,7 +1,7 @@
 import React from 'react';
-import svg from "../header/undraw_work_time_re_hdyv.svg"
+import svg from "../../assets/images/undraw_work_time_re_hdyv.svg"
 
-export const Home = () => {
+export const HomeLayout = () => {
   return (
     <div>
         <div>
