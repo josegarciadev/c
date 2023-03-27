@@ -1,13 +1,17 @@
 import React from 'react';
-import { Home } from '../components/home';
-import { LayoutPublic } from '../components/layout/LayoutPublic';
+import { LayoutOptions } from '../components/layout/LayoutOptions';
+//import { LayoutOptions } from '../components/layout/Layout-options';
+//import {  HomeLayout } from '../components/home';
 
-export const Test = () => {
+//import { LayoutPublic } from '../components/layout/LayoutPublic';
+
+export const App = () => {
 	return (
 		<div className='container mt-4'>
-			<LayoutPublic>
-				<Home />
-			</LayoutPublic>
+			{/*<LayoutPublic>*/}
+				{/*<HomeLayout/> */}
+				<LayoutOptions/>
+			{/*</LayoutPublic>*/}
 		</div>
 	);
 };

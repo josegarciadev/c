@@ -24,6 +24,10 @@
     
 }
 
+.btn-getstarted a {
+    color: #00BBF9;
+}
+
 
 .title-showcase{
     color: #1D1F2A;
@@ -75,3 +79,23 @@
     color: #0015A1;
     font-weight: bold;
 }
+
+/* NAV GLOBAL*/
+
+
+
+/*OptionsLayout*/
+
+
+
+/*Cards*/
+
+.cards {
+    border: 2px solid #7C82AC !important;
+    border-radius: 30px !important; 
+}
+
+.text-cards{
+    color: #7C82AC;
+}
+   
