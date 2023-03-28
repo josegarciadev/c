@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './App.css';
 import { reportWebVitals } from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Layout } from './containers/Test.jsx';
+import { App } from './containers/Test.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
-		<Layout/>
+		<App />
 	</React.StrictMode>,
 );
 
