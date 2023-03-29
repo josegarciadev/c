@@ -1,6 +1,7 @@
 import React from 'react';
 import { CardItem } from './CardItem';
 
+
 const card = [{
   id: 1,
   title: "CAMPUS COACH",
@@ -17,13 +18,18 @@ const card = [{
   title: "LEAVING A JOB",
   description: "Voluntarily, involuntarily understanding right & severance package",
 },
-,{
+{
   id: 5,
+  title: "EXECUTIVE COACH",
+  description: "Successfully building a brand, leading a team & having work/life balance",
+}
+,{
+  id: 6,
   title: "STARTING A FAMILY",
   description: "Maternity, paternity, adopting and family leave rights",
 },
 ,{
-  id: 6,
+  id: 7,
   title: "WORKPLACE GUIDANCE",
   description: "General help or navigating a questionable situation",
 }

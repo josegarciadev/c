@@ -92,10 +92,19 @@
 
 .cards {
     border: 2px solid #7C82AC !important;
-    border-radius: 30px !important; 
+    border-radius: 20px !important; 
+    cursor: pointer;
 }
 
 .text-cards{
     color: #7C82AC;
+}
+
+.title-li{
+    color: #1D1F2A;
+}
+
+.icon-arrow{
+    width: 4rem !important;
 }
    
