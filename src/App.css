@@ -78,6 +78,7 @@
 .text-join{
     color: #0015A1;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
 /* NAV GLOBAL*/
@@ -106,5 +107,16 @@
 
 .icon-arrow{
     width: 4rem !important;
+}
+
+
+/*FOOTER*/
+
+.footer-text{
+    color: #0015A1;
+}
+
+h5 .footer-text {
+    color: #7C82AC;
 }
    
