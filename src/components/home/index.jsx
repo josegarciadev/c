@@ -5,6 +5,7 @@ export const HomeLayout = () => {
   return (
     <div>
         <div>
+          anthony
         <div className="col-xxl-12 px-1 py-2">
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div className="col-10 col-sm-12 col-lg-5">
