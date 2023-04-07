@@ -37,10 +37,12 @@ const card = [{
 
 export const Options = () => {
   return (
-    <div className=''>
+    <div>
       <div className=" px-4 py-1 my-4 text-center mt-5 ms-5">
-          <h1 className="fs-1 fw-bold mb-4">Choose from the options below</h1>
-          <div className='container ms-2 px-5'>
+        <div className='mx-auto title-options'>
+          <h1 className="fs-1 fw-bold mb-4 justify-content-center ">Choose from the options below</h1>
+          </div>
+          <div className='container ms-2 px-4'>
             <div className='row justify-content-center'>
             {
             card.map( (card) => (

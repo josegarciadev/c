@@ -95,6 +95,10 @@
 
 /*OptionsLayout*/
 
+.title-options{
+    width: 26.9rem;
+}
+
 
 
 /*Cards*/
@@ -127,4 +131,36 @@
 h5 .footer-text {
     color: #7C82AC;
 }
-   
+
+
+
+/*FORM CREATE ACCOUNT*/
+
+.text-form{
+    color: #868897;
+}
+
+.inputs-style{
+    border: 2px solid #7C82AC !important; 
+    border-radius: 1rem !important;
+    height: 4rem;
+}
+.label-text-area{
+    color: #1D1F2A !important;
+}
+.text-area-style {
+    border: 2px solid #7C82AC !important; 
+    border-radius: 1rem !important;
+}
+.btn-create{
+    background-color: #0015A1;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 15px 10rem 15px 10rem;
+    border: none;
+
+}
+
+.login{
+    color: #0015A1;
+}

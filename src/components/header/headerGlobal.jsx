@@ -8,8 +8,8 @@ export const HeaderGlobal = () => {
 				<span className="title fst-italic fs-2">CoachCaden</span>
 	  		</div>
 			<div className="me-5 pe-5">
-				<div className="align-self-start text-center first-text">Take control of your career</div>
-				<div className="align-self-center fw-bold second-text ">Coach Caden is here to help</div>
+				<div className=" align-self-start text-center first-text">Take control of your career</div>
+				<div className=" align-self-center fw-bold second-text ">Coach Caden is here to help</div>
 	  		</div>
 			<div>
 

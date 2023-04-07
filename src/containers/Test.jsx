@@ -1,5 +1,6 @@
 import React from 'react';
-import { LayoutOptions } from '../components/layout/LayoutOptions';
+import { LayoutCreateAccount } from '../components/layout/LayoutCreateAccount';
+//import { LayoutOptions } from '../components/layout/LayoutOptions';
 //import { LayoutOptions } from '../components/layout/Layout-options';
 //import {  HomeLayout } from '../components/home';
 
@@ -10,7 +11,7 @@ export const App = () => {
 		<div className='container mt-4'>
 			{/*<LayoutPublic>*/}
 				{/*<HomeLayout/> */}
-				<LayoutOptions/>
+				<LayoutCreateAccount/>
 			{/*</LayoutPublic>*/}
 		</div>
 	);
