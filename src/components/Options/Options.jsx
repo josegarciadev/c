@@ -37,23 +37,23 @@ const card = [{
 
 export const Options = () => {
   return (
-    <>
-    <div className="px-3 py-1 my-4 text-center">
-        <h1 className="fs-1 fw-bold mb-4">Choose from the options below</h1>
-        <div className='container'>
-          <div className='row justify-content-center'>
-          {
-          card.map( (card) => (
-            <CardItem key={card.id }
-            {...card} />
-          ))
+    <div className=''>
+      <div className=" px-4 py-1 my-4 text-center mt-5 ms-5">
+          <h1 className="fs-1 fw-bold mb-4">Choose from the options below</h1>
+          <div className='container ms-2 px-5'>
+            <div className='row justify-content-center'>
+            {
+            card.map( (card) => (
+              <CardItem key={card.id }
+              {...card} />
+            ))
 
-      }
+        }
+            </div>
         </div>
-    </div>
-    </div>
+      </div>
   
-    </>
+    </div>
 
   )
 }

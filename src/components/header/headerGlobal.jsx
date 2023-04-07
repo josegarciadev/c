@@ -3,14 +3,17 @@ import React from 'react'
 export const HeaderGlobal = () => {
   return (
     <div>
-      <header className="d-flex flex-wrap justify-content-between py-1 mb-4 ">
+      <header className="d-flex flex-wrap justify-content-between py-1 mb-4 me-5 pe-5">
 			<div className="me-5">
 				<span className="title fst-italic fs-2">CoachCaden</span>
 	  		</div>
-			<ul className="nav nav-pills">
-				<li className="nav-item links"><a href="#" className="nav-link fs-5 me-4 link-login" >Log in</a></li>
-				<li className="nav-item btn-getstarted "><a href="#" className="nav-link fs-5" >Get Started</a></li>
-			</ul>
+			<div className="me-5 pe-5">
+				<div className="align-self-start text-center first-text">Take control of your career</div>
+				<div className="align-self-center fw-bold second-text ">Coach Caden is here to help</div>
+	  		</div>
+			<div>
+
+			</div>
       </header>
     </div>
   )

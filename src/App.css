@@ -82,8 +82,16 @@
 }
 
 /* NAV GLOBAL*/
+.first-text{
+    font-size: 1rem;
+    color: #868897 !important;
+}
 
 
+.second-text {
+    color: #1D1F2A;
+    font-size: 1.2rem;
+}
 
 /*OptionsLayout*/
 

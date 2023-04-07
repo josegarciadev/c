@@ -8,8 +8,8 @@ export const CardItem = ({title,description}) => {
     <>
     <div className='row justify-content-center'>
         <ul className="list-group list-group-light col-6">
-          <li className="list-group-item d-flex justify-content-between align-items-start cards m-1">
-            <div className="ms-2 me-auto text-cards text-start mb-1">
+          <li className="list-group-item d-flex justify-content-between align-items-start cards m-2">
+            <div className="ms-2 me-auto text-cards text-start">
               <div className="fw-bold text-start title-li fs-4 ">{title}</div>
               {description}
             </div>
