@@ -38,11 +38,11 @@ const card = [{
 export const Options = () => {
   return (
     <div>
-      <div className=" px-4 py-1 my-4 text-center mt-5 ms-5">
+      <div className=" py-1 my-4 text-center mx-auto">
         <div className='mx-auto title-options'>
-          <h1 className="fs-1 fw-bold mb-4 justify-content-center ">Choose from the options below</h1>
+          <h1 className="fs-1 mx-auto fw-bold mb-4 justify-content-center ">Choose from the options below</h1>
           </div>
-          <div className='container ms-2 px-4'>
+          <div className='mx-auto'>
             <div className='row justify-content-center'>
             {
             card.map( (card) => (

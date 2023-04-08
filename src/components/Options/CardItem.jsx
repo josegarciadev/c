@@ -7,9 +7,9 @@ export const CardItem = ({title,description}) => {
   return (
     <>
     <div className='row justify-content-center'>
-        <ul className="list-group list-group-light col-6">
-          <li className="list-group-item d-flex justify-content-between align-items-start cards m-2">
-            <div className="ms-2 me-auto text-cards text-start">
+        <ul className="list-group list-group-light mx-auto col-xxl-6 col-xl-7 col-lg-9 col-md-11 col-sm-11">
+          <li className="list-group-item d-flex justify-content-between align-items-start cards mb-3">
+            <div className="ms-1 text-cards text-start">
               <div className="fw-bold text-start title-li fs-4 ">{title}</div>
               {description}
             </div>
