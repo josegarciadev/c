@@ -141,9 +141,9 @@ h5 .footer-text {
 }
 
 .inputs-style{
-    border: 2px solid #7C82AC !important; 
+    border: 2px solid #7C82AC !important;
     border-radius: 1rem !important;
-    height: 4rem;
+    height: 3.5rem;
 }
 .label-text-area{
     color: #1D1F2A !important;
@@ -154,9 +154,8 @@ h5 .footer-text {
 }
 .btn-create{
     background-color: #0015A1;
-    border-radius: 30px;
     color: #FFFFFF;
-    padding: 15px 10rem 15px 10rem;
+    padding: 15px 5rem 15px 5rem;
     border: none;
 
 }
