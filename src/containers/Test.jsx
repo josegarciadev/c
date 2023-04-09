@@ -1,7 +1,8 @@
 import React from 'react';
 //import { LayoutCreateAccount } from '../components/layout/LayoutCreateAccount';
 
-import { LayoutLogin } from '../components/layout/LayoutLogin';
+
+import { LayoutCheckArea } from '../components/layout/LayoutCheckArea';
 //import {  HomeLayout } from '../components/home';
 
 //import { LayoutPublic } from '../components/layout/LayoutPublic';
@@ -11,7 +12,7 @@ export const App = () => {
 		<div className='container mt-4'>
 			{/*<LayoutPublic>*/}
 				{/*<HomeLayout/> */}
-				<LayoutLogin/>
+				<LayoutCheckArea/>
 			{/*</LayoutPublic>*/}
 		</div>
 	);

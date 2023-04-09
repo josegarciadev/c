@@ -32,7 +32,7 @@ export const LoginForm = () => {
                     <div className='col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-sm-12 mt-5'>
                         <div className='fs-5 btn-create rounded-pill'>
                             <button className='btn text-light fs-5'>
-                                    Create account
+                                    Log in
                             </button>
                         </div>
                         <h6 className='mt-4 mb-2 fs-5 text-muted'>Dont have an account? <a href="" className="text-decoration-none login">Create free account</a></h6>
