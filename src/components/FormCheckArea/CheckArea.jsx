@@ -87,7 +87,7 @@ export const CheckArea = () => {
                       
                     </div>
                 </div>
-                <div className='row justify-content-center mx-auto mt-4'>
+                <div className='row justify-content-center mx-auto'>
                       <div className=" ms-5 col-xxl-5 col-xl-6 col-lg-8 col-md-10 col-sm-12 col-11">
                         <div className='fs-5 mt-5 mb-4 btn-create rounded-pill'>
                             <button className='btn text-light fs-5'>
