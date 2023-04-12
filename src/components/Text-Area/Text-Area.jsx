@@ -13,7 +13,7 @@ export const TextArea = () => {
           <h1 className="fs-4 mx-auto fw-bold justify-content-center col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10 ">Tell us why you are a fit</h1>
         </div>
            <form className='container mx-auto mt-5'>
-                <div className='row justify-content-center mt-4' >
+                <div className='row mx-auto justify-content-center mt-4' >
                     <div className=' px-4 col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-sm-10 col-11'>
                         <div className="mb-3">
                             <label className="form-label mb-2 fw-semibold fs-6 text-start ms-auto lh-1">Tell us more about your services and why you d be a valuable member of our network</label>
